@@ -1,26 +1,20 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
+
 
 
 import pandas as pd
 import cv2
 
 
-# In[2]:
 
 
-get_ipython().system('pip uninstall mediapipe -y')
 get_ipython().system('pip install mediapipe')
 
 
 import mediapipe as mp
 
+
 from mediapipe.tasks.python.audio.audio_classifier import AudioClassifier, AudioClassifierOptions, AudioClassifierResult
-
-
-# In[ ]:
 
 
 mp_drawing = mp.solutions.drawing_utils
@@ -59,7 +53,7 @@ with mp_holistic.Holistic(
     cv2.destroyAllWindows()
 
 
-# In[ ]:
+
 
 
 
