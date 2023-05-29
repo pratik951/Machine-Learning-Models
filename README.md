@@ -1,3 +1,3 @@
 # Machine-Learning-Models
-Various Machine learning models implemented on day/weekly basis are pushed into this Repository for building an portfolio of my work in machine learning domain
+This repository contains a collection of machine learning models implemented in Python. Each model is designed to solve specific tasks and can be used for various applications.
 
